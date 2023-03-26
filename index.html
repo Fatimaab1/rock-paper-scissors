@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock, Paper, Scissors Game</title>
+</head>
+
+<body>
+
+    <video autoplay loop muted plays-inline class="bg-video">
+        <source src="./images/R-P-S.mp4" type="video/mp4">
+    </video>
+
+    <h1>Rock, Paper, Scissors Game</h1>
+
+    <div class="result">
+        <h1 class="score-board">SCORE:</h1>
+        <h2 id="result-message"></h2>
+        <p>You threw <span id="user-choice"></span></p>
+        <p>Computer threw <span id="computer-choice"></span></p>
+    </div>
+
+
+    <div class="choices">
+        <button onclick="startGame()" class="btn" id="rock">Rock</button>
+        <button onclick="startGame()" class="btn" id="paper">Paper</button>
+        <button onclick="startGame()" class="btn" id="scissors">Scissors</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

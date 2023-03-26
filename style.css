@@ -1,0 +1,66 @@
+.bg-video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+ opacity: 92%;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    top: 1rem;
+    z-index: 1;
+    color: white;
+  }
+  
+  .choices {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    color: #FF297B;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #d1b7c3;
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  
+  .result h2 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 2rem;
+  }
+  
+  .result p {
+    font-size: 26px;
+    font-weight: 500;
+    color: #FF297B;
+  }
+
+  .score-board {
+      position: relative;
+      top: -5rem;
+  }
+  
+  .result, .choices {
+    position: relative;
+    top: 10rem;
+
+    
+  }
